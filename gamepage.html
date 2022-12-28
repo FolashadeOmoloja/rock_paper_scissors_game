@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>GamePage</title>
+
+		<!-- external CSS link -->
+
+		<link rel="stylesheet" href="game.css">
+	</head>
+	<body>
+		<h1>ROCK - PAPER - SCISSORS</h1>
+		<section id="full-body">
+			<section class="scoreboard">
+				<div class="user-box">
+					<section>
+                       <img src="./images/user.png" alt="">
+					   <h3>User Score:</h3><span class="user-score"></span>
+				    </section>
+					
+				</div>
+				<div class="comp-box">
+					<section>
+					   <img src="./images/happy-computer-screen-md.png" alt="">
+					   <h3>Computer Score:</h3><span class="comp-score"></span>
+					</section>
+
+				</div>
+			</section>
+			<section class="container">
+				<div class="comp">
+					<h2 class="user">Your Choice: <span id="user-choice"></span></h2>
+					<div class="img">
+						<img src="" alt=""  id="user-display">
+						<!-- <img src="./images/a.PNG" alt="" class="hidden" id="user-scissors"> -->
+						<!-- <img src="./images/b.PNG" alt="" class="hidden" id="user-paper">
+						<img src="./images/c.PNG" alt="" class="hidden" id="user-rock"> -->
+					</div>
+				</div>
+	
+				<div class="comp">
+					<h2 class="comp-choice">Computer Choice: <span id="computer-choice"><span></h2>
+					<div class="img">
+						<img src="" alt=""  id="computer-display">
+					</div>
+				</div>			  
+			</section>
+	
+			<h2>Result: <span id="result"></span><img src="" alt="" id="trophy"></h2>
+			<!-- user selects a choice -->
+			<div class="container-1">
+				<button id="Rock" class="button">rock</button>
+				<button id="Paper" class="button">paper</button>
+				<button id="Scissors" class="button">scissors</button>
+				<a href="index.html"><span class="back">BACK</span></a>
+			</div>
+		</section>
+		<section class="final-score hidden" >
+			<h1 class="win-lose"></h1>
+			<img src="" alt="" id="final-image">
+			<div class="finalScoreBoard">
+				<span>Computer Score: <span id="final-computer-score"></span></span><br><br>
+				<span>Your Score: <span id="final-user-score"></span></span>
+			</div>
+
+				
+			<a href="index.html"><button class="back" id="replay">REPLAY</button></a>
+
+
+			
+		</section>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
